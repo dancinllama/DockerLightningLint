@@ -1,4 +1,3 @@
-s image provides an environment with the Jitterbit Agent (v 8.17) installed.
 FROM library/ubuntu
 RUN apt-get install software-properties-common && \
     apt-get-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./" && \
